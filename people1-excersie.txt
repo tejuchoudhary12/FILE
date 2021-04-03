@@ -1,0 +1,22 @@
+def list1():
+
+    i=1
+    list=[]
+    while i<=23:
+        if i%3==0:
+            a=i, "Nav"
+            list.append(a)
+        if i%7==0:
+            c= i, "Gurukul"
+            list.append(c)
+        if i%21==0:
+            b= i, "Navgurukul"
+            list.append(b)
+        i+=1
+    print(list)
+
+list1()
+
+
+
+
